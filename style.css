@@ -1,0 +1,49 @@
+:root {
+	--cor-de-fundo: #d6e2f0;
+	--branco: #ffffff;
+	--cor-texto-primario: #1f3251;
+	--cor-texto-secundaria: #7b879d;
+
+	/* FONTES */
+
+	--fonte-principal: 'Outfit', sans-serif;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	background-color: var(--cor-de-fundo);
+	font: normal 15px var(--fonte-principal);
+}
+
+.container {
+	background-color: var(--branco);
+	width: 322px;
+	border-radius: 20px;
+	margin: auto;
+	padding: 20px;
+}
+
+.qrcode__image {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.texto_primario {
+	font-family: var(--fonte-principal);
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: var(--cor-texto-primario);
+	padding: 6%;
+	text-align: center;
+}
+
+.texto_secundario {
+	font-family: var(--fonte-principal);
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 130%;
+	color: var(--cor-texto-secundaria);
+	padding: 0 8% 8%;
+	text-align: center;
+}
